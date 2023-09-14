@@ -1,0 +1,93 @@
+/* Header */
+
+header #title{
+    color: white;
+
+    background-image: url(/assets/Images/backgrounds/blue-mountains.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    border-color: rgb(107, 107, 107);
+    border-style: solid;
+    border-width: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+}
+
+header #title h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: transparent;
+
+    background-image: linear-gradient(to top right, #601cff, rgb(0, 255, 242));
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Form */
+
+#form-sec{
+    color: white;
+    background-color: #3a3a3a;
+    
+    width: 70%;
+}
+
+#form-sec form{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    margin: 100px;
+}
+
+#form-sec form div{
+
+    font-size: large;
+    border-style: solid;
+    border-image: linear-gradient(to top right, blue , cyan, lime);
+    border-image-slice: 1;
+
+    padding: 50px 50px;
+}
+
+#form-sec form div input#submit-button{
+    color: white;
+    font-size: large;
+    background-color: blueviolet;
+    
+    border-width: 3px;
+    border-color: #1a1a1ab2;
+    border-radius: 10px;
+
+    width: 100%;
+    margin-top: 10px;
+    padding: 17px;
+}
+
+#form-sec form div label input{
+    color: wheat;
+    font-size: large;
+    
+    background-color: #3a3a3a;
+    
+    height: 30px;
+    width: 300px;
+    
+    margin: 10px 0px;
+    padding: 0 5px;
+}
+
+/* Styling according to Classes */
+
+.all-alignments{
+    display: flex;
+    justify-content: space-between;
+}

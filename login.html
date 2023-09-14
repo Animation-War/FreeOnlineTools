@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://www.google.com/Images/branding/googleg/1x/googleg_standard_color_128dp.png"> <!-- Icon before title -->
+
+    <!-- SCRIPTS -->
+    <script src="scripts/experiment.js"></script> <!-- PPS Personal (Personal Page Script)-->
+    <script src="assets/templates/script/setup.js"></script> <!-- Setup-->
+    <script src="assets/templates/script/navbar.js"></script> <!-- navbar -->
+    <script src="assets/templates/script/footer.js"></script> <!-- footer -->
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/login.css"> <!-- PPC  (Personal Page CSS) -->
+</head>
+<body>
+    <header>
+        <div id="navbar-placeholder">
+            
+        </div>
+        <div id="title">
+            <h1>Register</h1>
+        </div>
+    </header>
+    <main>
+        <div class="all-alignments">
+            <div>
+                <img src="assets/Images/ads/exaroton.png" alt="ad", class="side-way-ad">
+            </div>
+            <div id="form-sec">
+                <h2>Register</h2>
+                <form action="acc.php" method="post">
+                    <div>
+                        <!-- Username -->
+                        <label for="username"> Username <br>
+                            <input type="text" name="username" placeholder="Username" id="username" required maxlength="20">
+                        </label>
+                        <br>
+
+                        <!-- Email -->
+                        <label for="email"> Email <br>
+                            <input type="email" name="email" placeholder="Email" id="email" required >
+                        </label>
+                        <br>
+
+                        <!-- Password -->
+                        <label for="password"> Password <br>
+                            <input type="password" name="password" placeholder="Password" id="password" required minlength="4" maxlength="32">
+                        </label>
+                        <br>
+                        <!-- Submit Button -->
+                        <input type="submit" value="Submit" id="submit-button">
+                    </div>
+                </form>
+            </div>
+            <div>
+                <img src="assets/Images/ads/exaroton.png" alt="ad", class="side-way-ad">
+            </div>
+        </div>
+    </main>
+    <footer id="footer-placeholder"></footer>
+</body>
+</html>
